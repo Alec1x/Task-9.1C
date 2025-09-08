@@ -1,4 +1,4 @@
-﻿import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { onAuthStateChanged, signOut } from "firebase/auth";
 import { getFirestore, doc, getDoc } from "firebase/firestore";
 import { auth } from "../utils/firebase";
